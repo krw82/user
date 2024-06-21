@@ -1,8 +1,8 @@
 package com.example.user.user.User;
 
-import java.util.List;
-
 import org.springframework.security.core.userdetails.UserDetailsService;
+
+import com.example.user.user.Entitiy.UserEntity;
 
 public interface UserService extends UserDetailsService {
     UserEntity login(String userId);
